@@ -5,7 +5,7 @@ const PORT = 8080;
 const app = express();
 //console.log(process.env)
 
-var healthy=false;
+var healthy=true;
 
 
 app.get('/', function (req, res) {
