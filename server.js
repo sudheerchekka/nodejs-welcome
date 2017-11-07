@@ -5,11 +5,11 @@ const PORT = 8080;
 const app = express();
 //console.log(process.env)
 
-var healthy=true;
+var healthy=false;
 
 
 app.get('/', function (req, res) {
-  res.send('Hello world v.3 ' + os.hostname() + '\n');
+  res.send('Hello world v.4 ' + os.hostname() + '\n');
 });
 
 
